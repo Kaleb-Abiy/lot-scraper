@@ -238,7 +238,6 @@ def scrape():
     }
 
 # ===================== RUN =====================
-
 if __name__ == "__main__":
     data = scrape()
     json_data = json.dumps(data, indent=2, ensure_ascii=False)
